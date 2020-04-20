@@ -18,8 +18,8 @@ Quando enviar as informações de usuário <user>, senha <password>
 Então deverá exibir a mensagem de erro 'ID e/ou senha do agente não encontrada'
 Exemplos:
 |user          |password |
-|'leandro.fel' | ' '     |
-|'leandro.fel' |'$#'     |
+|'teste'       | ' '     |
+|'teste'       |'$#'     |
 |'teste'       |' '      |
 |'teste'       |'1234234'|
 |' '           |' '      |
