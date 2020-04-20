@@ -1,0 +1,11 @@
+source 'http://rubygems.org'
+
+gem 'capybara'
+gem "cpf_cnpj"
+gem 'cucumber'
+gem 'rspec'
+gem 'selenium-webdriver'
+gem "capybara-screenshot"
+gem 'faker'
+gem 'report_builder'
+gem 'pry'

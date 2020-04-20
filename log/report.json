@@ -1,0 +1,1255 @@
+[
+  {
+    "uri": "features/spec/customer_login.feature",
+    "id": "realizar-login-de-vendedor",
+    "keyword": "Funcionalidade",
+    "name": "Realizar login de vendedor",
+    "description": "",
+    "line": 4,
+    "tags": [
+      {
+        "name": "@login_cliente",
+        "line": 3
+      }
+    ],
+    "elements": [
+      {
+        "keyword": "Contexto",
+        "name": "Realizar Login",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42800
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64200
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2980037600
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuario efetuou o login",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/common_steps.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6218233500
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-login-de-vendedor;efetuar-login-como-cliente-na-loja-virtual;;2",
+        "keyword": "Esquema do Cenário",
+        "name": "Efetuar login como cliente na Loja virtual",
+        "description": "",
+        "line": 17,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@login_cliente",
+            "line": 3
+          },
+          {
+            "name": "@customer_login_success",
+            "line": 9
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "enviar as informações de usuário '16077204000160', 'TESTE SOCIAL'",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/customer_login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 191166300
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "selecionar o usuário retornado",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/customer_login_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5981392100
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clica no botão Iniciar Sessão",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/customer_login_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5516953400
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "sistema deverá exibir a tela da PLP",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/customer_login_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20921500
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 192486400
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/spec/customer_registration.feature",
+    "id": "realizar-cadastro-cliente",
+    "keyword": "Funcionalidade",
+    "name": "Realizar cadastro cliente",
+    "description": "",
+    "line": 4,
+    "tags": [
+      {
+        "name": "@customer_registration",
+        "line": 3
+      }
+    ],
+    "elements": [
+      {
+        "keyword": "Contexto",
+        "name": "Realizar Login",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33400
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37800
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 223925000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuario efetuou o login",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/common_steps.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1791790700
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-cadastro-cliente;cadastrar-cliente-físico",
+        "keyword": "Cenário",
+        "name": "Cadastrar cliente físico",
+        "description": "",
+        "line": 10,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@customer_registration",
+            "line": 3
+          },
+          {
+            "name": "@physical_customer_registration",
+            "line": 9
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "clico no botão Criar Nova Conta",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/customer_registration_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 780061100
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "informo todos os dados do cliente físico",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/customer_registration_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12251321800
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clica no botão Registrar",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/customer_registration_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 180686600
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "sistema deverá exibir a tela da PLP com o usuário criado.",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/customer_registration_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29600
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 138135200
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "Realizar Login",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28500
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38600
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 231771100
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuario efetuou o login",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/common_steps.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2472088100
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-cadastro-cliente;cadastrar-cliente-jurídico",
+        "keyword": "Cenário",
+        "name": "Cadastrar cliente jurídico",
+        "description": "",
+        "line": 17,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@customer_registration",
+            "line": 3
+          },
+          {
+            "name": "@legal_customer_registration",
+            "line": 16
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "clico no botão Criar Nova Conta",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/customer_registration_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 653272100
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "informo todos os dados do cliente jurídico",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/customer_registration_steps.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 236505011400
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clica no botão Registrar",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/customer_registration_steps.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 231883300
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "sistema deverá exibir a tela da PLP com o usuário criado.",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/customer_registration_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30200
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 173914700
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/spec/salesman_login.feature",
+    "id": "realizar-login-de-vendedor",
+    "keyword": "Funcionalidade",
+    "name": "Realizar login de vendedor",
+    "description": "",
+    "line": 4,
+    "tags": [
+      {
+        "name": "@login",
+        "line": 3
+      }
+    ],
+    "elements": [
+      {
+        "keyword": "Contexto",
+        "name": "Página de Login",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20400
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20700
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 248139000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuário esta na página de login",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/common_steps.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 574359900
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-login-de-vendedor;efetuar-login-como-vendedor-na-loja-virtual",
+        "keyword": "Cenário",
+        "name": "Efetuar login como vendedor na Loja virtual",
+        "description": "",
+        "line": 10,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 3
+          },
+          {
+            "name": "@salesman_login_success",
+            "line": 9
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Quando ",
+            "name": "enviar as informações de login",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/salesman_login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1415684000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "o sistema deve exibir a tela de informações do cliente",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/salesman_login_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23600
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 155781000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "Página de Login",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31300
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 230880300
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuário esta na página de login",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/common_steps.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 522867600
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-login-de-vendedor;efetuar-login-vendedor-com-dados-invalidos;;2",
+        "keyword": "Esquema do Cenário",
+        "name": "Efetuar login vendedor com dados invalidos",
+        "description": "",
+        "line": 21,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 3
+          },
+          {
+            "name": "@salesman_login_invalid",
+            "line": 14
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuário esteja na tela inicial do sistema",
+            "line": 16,
+            "match": {
+              "location": "features/spec/salesman_login.feature:21"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "enviar as informações de usuário 'leandro.fel', senha ' '",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/salesman_login_steps.rb:11"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "deverá exibir a mensagem de erro 'ID e/ou senha do agente não encontrada'",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/salesman_login_steps.rb:15"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 155307300
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "Página de Login",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17100
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31600
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 275434100
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuário esta na página de login",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/common_steps.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 593746300
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-login-de-vendedor;efetuar-login-vendedor-com-dados-invalidos;;3",
+        "keyword": "Esquema do Cenário",
+        "name": "Efetuar login vendedor com dados invalidos",
+        "description": "",
+        "line": 22,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 3
+          },
+          {
+            "name": "@salesman_login_invalid",
+            "line": 14
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuário esteja na tela inicial do sistema",
+            "line": 16,
+            "match": {
+              "location": "features/spec/salesman_login.feature:22"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "enviar as informações de usuário 'leandro.fel', senha '$#'",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/salesman_login_steps.rb:11"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "deverá exibir a mensagem de erro 'ID e/ou senha do agente não encontrada'",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/salesman_login_steps.rb:15"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 154317100
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "Página de Login",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23300
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18200
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 234277200
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuário esta na página de login",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/common_steps.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 695745800
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-login-de-vendedor;efetuar-login-vendedor-com-dados-invalidos;;4",
+        "keyword": "Esquema do Cenário",
+        "name": "Efetuar login vendedor com dados invalidos",
+        "description": "",
+        "line": 23,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 3
+          },
+          {
+            "name": "@salesman_login_invalid",
+            "line": 14
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuário esteja na tela inicial do sistema",
+            "line": 16,
+            "match": {
+              "location": "features/spec/salesman_login.feature:23"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "enviar as informações de usuário 'teste', senha ' '",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/salesman_login_steps.rb:11"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "deverá exibir a mensagem de erro 'ID e/ou senha do agente não encontrada'",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/salesman_login_steps.rb:15"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 153195500
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "Página de Login",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17500
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17200
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 217675200
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuário esta na página de login",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/common_steps.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 580706500
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-login-de-vendedor;efetuar-login-vendedor-com-dados-invalidos;;5",
+        "keyword": "Esquema do Cenário",
+        "name": "Efetuar login vendedor com dados invalidos",
+        "description": "",
+        "line": 24,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 3
+          },
+          {
+            "name": "@salesman_login_invalid",
+            "line": 14
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuário esteja na tela inicial do sistema",
+            "line": 16,
+            "match": {
+              "location": "features/spec/salesman_login.feature:24"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "enviar as informações de usuário 'teste', senha '1234234'",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/salesman_login_steps.rb:11"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "deverá exibir a mensagem de erro 'ID e/ou senha do agente não encontrada'",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/salesman_login_steps.rb:15"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 139286000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "Página de Login",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32200
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 263132000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuário esta na página de login",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/common_steps.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 571758500
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-login-de-vendedor;efetuar-login-vendedor-com-dados-invalidos;;6",
+        "keyword": "Esquema do Cenário",
+        "name": "Efetuar login vendedor com dados invalidos",
+        "description": "",
+        "line": 25,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 3
+          },
+          {
+            "name": "@salesman_login_invalid",
+            "line": 14
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuário esteja na tela inicial do sistema",
+            "line": 16,
+            "match": {
+              "location": "features/spec/salesman_login.feature:25"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "enviar as informações de usuário ' ', senha ' '",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/salesman_login_steps.rb:11"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "deverá exibir a mensagem de erro 'ID e/ou senha do agente não encontrada'",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/salesman_login_steps.rb:15"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 184906400
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/spec/search_product.feature",
+    "id": "realizar-pesquisa-do-produto",
+    "keyword": "Funcionalidade",
+    "name": "Realizar pesquisa do produto",
+    "description": "",
+    "line": 4,
+    "tags": [
+      {
+        "name": "@search",
+        "line": 3
+      }
+    ],
+    "elements": [
+      {
+        "keyword": "Contexto",
+        "name": "Realizar Login",
+        "description": "",
+        "line": 6,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44900
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 248350100
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuario efetuou o login",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/common_steps.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2201313300
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-pesquisa-do-produto;pesquisar-produto",
+        "keyword": "Cenário",
+        "name": "Pesquisar produto",
+        "description": "",
+        "line": 10,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@search",
+            "line": 3
+          },
+          {
+            "name": "@search_product",
+            "line": 9
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o cliente está na tela do PLP",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/common_steps.rb:15"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "wrong number of arguments (given 0, expected 2) (ArgumentError)\n./features/support/web/pages/customer_login_page.rb:12:in `customer_login'\n./features/step_definitions/common_steps.rb:16:in `\"que o cliente está na tela do PLP\"'\nfeatures/spec/search_product.feature:11:in `Dado que o cliente está na tela do PLP'",
+              "duration": 130800
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "preencho o campo de pesquisa com dados do produto",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/search_product_steps.rb:3"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clico no botão pesquisar",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/search_product_steps.rb:7"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "será retornado os dados do produto solicitado",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/search_product_steps.rb:11"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.31.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 179283200
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

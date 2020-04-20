@@ -1,0 +1,34 @@
+
+#salesman_longin_page
+  agent_id_field:       'username'
+  agent_password_field: 'password'
+
+# customer_login_page
+  customer_name_field: 'customerName'
+  customer_item_field: '.ui-menu li:nth-child(1)'
+  customer_start_session_button: '.ASM-btn.ASM-btn-start-session'
+  
+#customer_registration_page_physical
+  customer_physical_create_new_account_button: '.ASM-btn-new-account'
+  customer_physical_first_name_field: 'firstName'
+  customer_physical_birth_date_field: 'birthDate'
+  customer_physical_cpf_field: 'document'
+  customer_physical_type_address_field: 'addressType'
+  customer_physical_postal_code_field: 'postalCode'
+  customer_physical_street_number_field: 'streetNumber'
+  customer_physical_complement_field: 'line1'
+  customer_physical_reference_location_field: 'referenceLocation'
+  customer_physical_phone_field: 'phone'
+
+#customer_registration_page
+  customer_legal_email_field: 'email'
+  customer_legal_cnpj_field: 'document'
+  customer_legal_social_name_field: 'socialName'
+  customer_legal_address_type_field: 'addressType'
+  customer_legal_postal_code_field: 'postalCode'
+  customer_legal_street_number_field: 'streetNumber'
+  customer_legal_complement_field: 'line1'
+  customer_legal_reference_location_field: 'referenceLocation'
+  customer_legal_phone_field: 'phone'
+
+#search_product_page
